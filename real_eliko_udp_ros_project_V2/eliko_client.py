@@ -24,7 +24,7 @@ signal.signal(signal.SIGINT, signal_handler)
 # 初始化 MATLAB 引擎
 print("Starting MATLAB engine...")
 eng = matlab.engine.start_matlab()
-eng.cd(r'C:/Users/王子辰/Desktop/zichen/real_eliko_udp_ros_project', nargout=0)
+eng.cd(r'D:/github/EBI/real_eliko_udp_ros_project_V2', nargout=0)
 
 # 启动 socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
