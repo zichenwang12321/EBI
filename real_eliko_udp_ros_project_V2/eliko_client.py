@@ -8,7 +8,7 @@ import csv
 
 # 全局变量
 SEQ_NUM = 0
-TEST = False  # 设置 True 可测试模拟数据
+TEST = False  # 设置 True 可测试模拟数据 False
 DESIRED_HZ = 100  # 发送频率
 DELAY = 1.0 / DESIRED_HZ
 UDP_IP = "192.168.1.134"  # 服务器端的 IP
