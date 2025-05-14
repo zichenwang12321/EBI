@@ -1,0 +1,4 @@
+4/27  更改了
+Use Matlab to read Quadra sensor and send data through UDP
+Matlab can perhaps acquire only 1 cycle of data and then sends this pack
+For impedance sensing, perhaps, the first cycle of measurement can be noisy due to parasitic capacitance. You can ask matlab to read, for instance, 3 cycles of data, and then send the last cycle of data.
